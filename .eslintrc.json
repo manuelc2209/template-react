@@ -26,7 +26,7 @@
         "sourceType": "module",
         "project": "./tsconfig.json"
     },
-    "plugins": ["react", "react-refresh", "@typescript-eslint", "prettier", "jest", "import-helpers"],
+    "plugins": ["react", "react-refresh", "@typescript-eslint", "prettier", "import-helpers"],
     "rules": {
         "@typescript-eslint/naming-convention": "off",
         "@typescript-eslint/no-unnecessary-condition": "warn",
@@ -34,11 +34,6 @@
         "prettier/prettier": 2,
         "@shopify/jsx-no-hardcoded-content": "off",
         "@typescript-eslint/no-non-null-assertion": "off",
-        "jest/no-disabled-tests": "warn",
-        "jest/no-focused-tests": "error",
-        "jest/no-identical-title": "error",
-        "jest/prefer-to-have-length": "warn",
-        "jest/valid-expect": "error",
         "jsx-a11y/click-events-have-key-events": "off",
         "jsx-a11y/label-has-for": 0,
         "import-helpers/order-imports": [
