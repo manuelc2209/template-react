@@ -6,7 +6,7 @@
     "dependencies": {
         "@tanstack/react-query": "^5.29.2",
         "@vitejs/plugin-react": "^4.3.4",
-        "axios": "1.7.4",
+        "axios": "1.8.3",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "styled-components": "^6.1.8",
@@ -79,6 +79,8 @@
         ]
     },
     "resolutions": {
-        "esbuild": ">=0.25.0"
+        "esbuild": ">=0.25.0",
+        "@babel/runtime": "7.26.10",
+        "@babel/helpers": "7.26.10"
     }
 }
